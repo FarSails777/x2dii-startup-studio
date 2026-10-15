@@ -10,7 +10,7 @@ cp installer.py bootstrap.py studio.py x2dii_protocol.py rndis-up "$APP/Contents
 mkdir -p "$APP/Contents/Resources/assets"
 cp assets/AppIcon.png assets/phaseone-logo.bin assets/phaseone-preview.png "$APP/Contents/Resources/assets/"
 cp assets/AppIcon.icns "$APP/Contents/Resources/"
-cp RNDIS-LICENSE.txt "$APP/Contents/Resources/RNDIS-LICENSE.txt"
+cp THIRD_PARTY_NOTICES.txt "$APP/Contents/Resources/RNDIS-LICENSE.txt"
 cat >"$APP/Contents/Info.plist" <<'PLIST'
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
